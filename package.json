@@ -1,0 +1,29 @@
+{
+  "name": "exportpdf",
+  "version": "1.0.0",
+  "description": "把dom节点导出成pdf",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist/* && rollup -c",
+    "watch": "rm -rf dist/* && rollup -c -w",
+    "dev": "rm -rf dist/* && rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenxu2656/exportpdf.git"
+  },
+  "keywords": [
+    "ls"
+  ],
+  "author": "xuchen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenxu2656/exportpdf/issues"
+  },
+  "homepage": "https://github.com/chenxu2656/exportpdf#readme",
+  "dependencies": {
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "rollup": "^2.72.1"
+  }
+}
