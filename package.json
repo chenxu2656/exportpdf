@@ -8,7 +8,7 @@
     "watch": "rm -rf dist/* && rollup -c -w",
     "dev": "rm -rf dist/* && rollup -c -w",
     "public:publish": "npm publish",
-    "publish": ""
+    "publish": "mversion patch -m 'publish sdk' && npm run public:publish"
   },
   "repository": {
     "type": "git",
