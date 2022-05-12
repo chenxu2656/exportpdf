@@ -4,7 +4,7 @@ export default {
     input: 'index.ts',
     output: [
         {
-            file: 'dist/bundle.js',
+            file: 'dist/index.js',
             format: "esm",
             name: 'exportpdf',
             sourcemap: 'inline'
