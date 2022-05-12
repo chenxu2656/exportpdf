@@ -1,6 +1,6 @@
 {
   "name": "export-dom2pdf",
-  "version": "1.0.9",
+  "version": "1.0.8",
   "description": "通过动态创建iframe，调用系统打印框把dom导出成矢量pdf",
   "main": "index.ts",
   "scripts": {
@@ -8,7 +8,7 @@
     "watch": "rm -rf dist/* && rollup -c -w",
     "dev": "rm -rf dist/* && rollup -c -w",
     "public:publish": "npm publish",
-    "publish": "mversion patch -m 'publish sdk' && npm run public:publish"
+    "publish": "npm version patch && npm publish && git push"
   },
   "repository": {
     "type": "git",
