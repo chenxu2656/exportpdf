@@ -5,9 +5,7 @@
 **缺点**： 无法静默导出
 
 **Demo**: 
-
-<img src='http://qiniu-btfblog-bucket.xccit.cn/1652359992069_exportpdf.gif'>
-
+> https://qiniu-btfblog-bucket.xccit.cn/1652359992069_exportpdf.gif
 
 ### 安装
 ```bash
