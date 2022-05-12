@@ -1,6 +1,6 @@
 {
   "name": "export-dom2pdf",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "通过动态创建iframe，调用系统打印框把dom导出成矢量pdf",
   "main": "index.ts",
   "scripts": {
