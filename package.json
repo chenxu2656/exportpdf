@@ -1,7 +1,7 @@
 {
-  "name": "exportpdf",
-  "version": "1.0.0",
-  "description": "通过动态创建iframe，调用系统导出框把dom导出成矢量pdf",
+  "name": "export-dom2pdf",
+  "version": "1.0.1",
+  "description": "通过动态创建iframe，调用系统打印框把dom导出成矢量pdf",
   "main": "index.ts",
   "scripts": {
     "build": "rm -rf dist/* && rollup -c",
