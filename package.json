@@ -1,8 +1,8 @@
 {
   "name": "exportpdf",
   "version": "1.0.0",
-  "description": "把dom节点导出成pdf",
-  "main": "index.js",
+  "description": "通过动态创建iframe，调用系统导出框把dom导出成矢量pdf",
+  "main": "index.ts",
   "scripts": {
     "build": "rm -rf dist/* && rollup -c",
     "watch": "rm -rf dist/* && rollup -c -w",
@@ -13,10 +13,14 @@
     "url": "git+https://github.com/chenxu2656/exportpdf.git"
   },
   "keywords": [
-    "ls"
+    "dom",
+    "pdf",
+    "dom2pdf",
+    "domtopdf",
+    "javascript"
   ],
   "author": "xuchen",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chenxu2656/exportpdf/issues"
   },
