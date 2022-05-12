@@ -4,7 +4,10 @@
 
 **缺点**： 无法静默导出
 
-**Demo**: http://qiniu-btfblog-bucket.xccit.cn/demo/exportpdf.mov
+**Demo**: 
+<video src="http://qiniu-btfblog-bucket.xccit.cn/1652358471377_exportpdf.mp4" controls="controls">
+您的浏览器不支持 video 标签。
+</video>
 
 ### 安装
 ```bash
