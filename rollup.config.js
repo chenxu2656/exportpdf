@@ -4,10 +4,15 @@ export default {
     input: 'index.ts',
     output: [
         {
-            file: 'dist/index.js',
+            file: 'dist/esm/index.js',
             format: "esm",
             name: 'exportpdf',
             sourcemap: 'inline'
+        },
+        {
+            file: 'dist/iife/index.js',
+            format: "iife",
+            name: 'exportpdf',
         }
     ],
     plugins: [
